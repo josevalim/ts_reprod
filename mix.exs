@@ -21,8 +21,10 @@ defmodule Foo.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto_sql, ">= 0.0.0"},
-      {:postgrex, ">= 0.0.0"}
+      {:ecto_sql, "~> 3.6"},
+      {:phoenix_live_view, "~> 1.1"},
+      {:postgrex, ">= 0.0.0"},
+      {:req, "~> 0.4"}
     ]
   end
 end
